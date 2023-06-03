@@ -1,0 +1,387 @@
+body
+{
+    background-color: #141516;
+}
+@font-face
+{
+    font-family: Bmbing;
+    src: url(Assets/Fontes/Norsebold.otf)
+}
+@font-face
+{
+    font-family: ombing;
+    src: url(Assets/Fontes/Norse.otf)
+}
+
+.faixa1
+{
+    background-color:#191a1bb4;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    position: fixed;
+    width: 1350px;
+    top: -20px;
+    height: 50px;
+    left: -5.5px;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 110px;
+    margin-top: 300px;
+    font-family: ombing !important;
+    color: white;
+}
+.GameDev
+{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -90px;
+    color: rgb(174, 171, 171);
+    font-family: ombing !important;
+    font-weight: 100;
+}
+
+.About
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+}
+.ABOUT
+{
+    position: absolute;
+    margin-top: -230px;
+}
+.PROJECT
+{
+    position: absolute;
+    margin-top: 420px;
+}
+
+.intro
+{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 42%;
+    margin-top: 150px;
+    color: rgba(255, 255, 255, 0.623);
+    font-weight: 100;
+}
+.PhotoMG
+{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -205px;
+    width: 350px;
+}
+
+.SM
+{
+    position: fixed;
+    top: 15px;
+    right:920px;
+    background-color:rgba(255, 0, 0, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: ombing !important;
+    font-size: 20px;
+}
+.P
+{
+    position: fixed;
+    top: 15px; 
+    right: 630px;
+    background-color:rgba(255, 255, 255, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: ombing !important;
+}
+.serviço
+{
+    position: fixed;
+    top: 15px; 
+    right: 360px;
+    background-color:rgba(255, 255, 255, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: ombing !important;
+}
+
+.logo
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -30px;
+    width: 150px;
+}
+.sm
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 600px;
+    font-family: ombing !important;
+    color: rgb(255, 255, 255);
+}
+.p
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 350px;
+    font-family: ombing !important;
+    color: rgb(255, 255, 255);
+}
+.s
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 850px;
+    font-family: ombing !important;
+    color: rgb(255, 255, 255);
+}
+.text-projects
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    color: rgb(174, 171, 171);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+
+.SH
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 33px;
+    border-radius: 40px;
+    width: 380px;
+}
+
+.slot1
+{
+    background-color:#191a1b;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.divSky
+{
+    position: absolute;
+    color:#ffffff;
+    text-align: center;
+    top: 2110px;
+    width: 250px;
+    margin-left: 100px;
+    line-height: 1px;
+    font-family: ombing !important;
+    font-size: 15px;
+}
+.descSky
+{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.623);
+    text-align: center;
+    top: 2160px;
+    margin-left: 45px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.verMaisSky
+{
+    position: absolute;
+    left: 160px;
+    margin-top: 500px;
+}
+.verMaisSky2
+{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: white;
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
+
+.EA
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 460px;
+    border-radius: 40px;
+    width: 380px;
+}
+
+.slot2
+{
+    background-color:#191a1b;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+.divEA
+{
+    position: absolute;
+    color:#ffffff;
+    text-align: center;
+    top: 2100px;
+    width: 350px;
+    margin-left: 480px;
+    line-height: 1px;
+    font-family: ombing !important;
+    font-size: 15px;
+}
+.descEA
+{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.623);
+    text-align: center;
+    top: 2160px;
+    margin-left: 480px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.verMaisEA
+{
+    position: absolute;
+    left: 590px;
+    margin-top: 500px;
+}
+.verMaisEA2
+{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: white;
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
+
+.Envi
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 893px;
+    border-radius: 40px;
+    width: 380px;
+}
+
+.slot3
+{
+    background-color:#191a1b;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 880px;
+}
+.divEnvi
+{
+    position: absolute;
+    color:#ffffff;
+    text-align: center;
+    top: 2100px;
+    width: 250px;
+    margin-left: 950px;
+    line-height: 1px;
+    font-family: ombing !important;
+    font-size: 15px;
+}
+.descEnvi
+{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.623);
+    text-align: center;
+    top: 2160px;
+    margin-left: 910px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.verMaisEnvi
+{
+    position: absolute;
+    left: 1015px;
+    margin-top: 500px;
+}
+.verMaisEnvi2
+{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
+
+.imgDC
+{
+    position: fixed;
+    top:65px; 
+    right:5px;
+    width: 50px;
+}
+.bottDC
+{
+    position: fixed;
+    top:55px; 
+    right:5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.imgIG
+{
+    position: fixed;
+    top:110px; 
+    right:5px;
+    width: 50px; 
+}
+.bottIG
+{
+    position: fixed;
+    top:110px; 
+    right:5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.imgYT
+{
+    position: fixed;
+    top: 175px; 
+    right:11px;
+    width: 40px; 
+}
+.bottYT
+{
+    position: fixed;
+    top:162px; 
+    right:5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+}
