@@ -1,0 +1,8 @@
+.Gnomo
+{
+    position: absolute;
+    width: 80px;
+    margin-top: -2500px;
+    margin-left: 150px;
+    image-rendering: pixelated;
+}
