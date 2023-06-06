@@ -24,6 +24,17 @@ body
     height: 50px;
     left: -5.5px;
 }
+.faixa2
+{
+    background-color:#191a1bb4;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    position: absolute;
+    margin-top: 990px;
+    margin-left: -10px;
+    height: 280px;
+    width: 1345px;
+}
 
 .title
 {
@@ -76,7 +87,7 @@ body
     width: 350px;
 }
 
-.SM
+.SM1
 {
     position: fixed;
     top: 15px;
@@ -87,7 +98,7 @@ body
     font-family: ombing !important;
     font-size: 20px;
 }
-.P
+.P1
 {
     position: fixed;
     top: 15px; 
@@ -98,7 +109,7 @@ body
     font-size: 20px;
     font-family: ombing !important;
 }
-.serviço
+.serviço1
 {
     position: fixed;
     top: 15px; 
@@ -108,6 +119,44 @@ body
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: ombing !important;
+}
+.SM2
+{
+    position: absolute;
+    top: 3920px;
+    right:925px;
+    background-color:rgba(255, 0, 0, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: ombing !important;
+    font-size: 20px;
+}
+.P2
+{
+    position: absolute;
+    top: 3950px;
+    right: 930px;
+    background-color:rgba(255, 255, 255, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: ombing !important;
+}
+.serviço2
+{
+    position: absolute;
+    top: 3980px; 
+    right: 930px;
+    background-color:rgba(255, 255, 255, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: ombing !important;
+}
+.SERVI
+{
+    position: absolute;
+    margin-top: 1420px;
 }
 
 .logo
@@ -176,7 +225,7 @@ body
     width: 380px;
 }
 
-.slot1
+.slot1p
 {
     background-color:#191a1b;
     border-color: rgba(137, 43, 226, 0.712);
@@ -227,6 +276,22 @@ body
     font-size: 20px;
     font-family: ombing !important;
 }
+.botSKY
+{
+    position: absolute;
+    left: 605px;
+    margin-top: 1105px;
+}
+.botSKY2
+{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
 
 .EA
 {
@@ -237,7 +302,7 @@ body
     width: 380px;
 }
 
-.slot2
+.slot2p
 {
     background-color:#191a1b;
     border-color: rgba(137, 43, 226, 0.712);
@@ -288,6 +353,22 @@ body
     font-size: 20px;
     font-family: ombing !important;
 }
+.botEA
+{
+    position: absolute;
+    left: 605px;
+    margin-top: 1133px;
+}
+.botEA2
+{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
 
 .Envi
 {
@@ -298,7 +379,7 @@ body
     width: 380px;
 }
 
-.slot3
+.slot3p
 {
     background-color:#191a1b;
     border-color: rgba(137, 43, 226, 0.712);
@@ -349,19 +430,35 @@ body
     font-size: 20px;
     font-family: ombing !important;
 }
+.botEnvi
+{
+    position: absolute;
+    left: 605px;
+    margin-top: 1164px;
+}
+.botEnvi2
+{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
 
 .imgDC
 {
-    position: fixed;
-    top:65px; 
-    right:5px;
+    position: absolute;
+    top:3950px; 
+    right:440px;
     width: 50px;
 }
 .bottDC
 {
-    position: fixed;
-    top:55px; 
-    right:5px;
+    position: absolute;
+    top:3950px; 
+    right:440px;
     width: 50px;
     height: 50px;
     background-color: transparent;
@@ -369,16 +466,16 @@ body
 }
 .imgIG
 {
-    position: fixed;
-    top:110px; 
-    right:5px;
+    position: absolute;
+    top:3940px; 
+    right:390px;
     width: 50px; 
 }
 .bottIG
 {
-    position: fixed;
-    top:110px; 
-    right:5px;
+    position: absolute;
+    top:3940px; 
+    right:390px;
     width: 50px;
     height: 50px;
     background-color: transparent;
@@ -386,18 +483,404 @@ body
 }
 .imgYT
 {
-    position: fixed;
-    top: 175px; 
-    right:11px;
+    position: absolute;
+    top:3950px; 
+    right:345px;
     width: 40px; 
 }
 .bottYT
 {
-    position: fixed;
-    top:162px; 
-    right:5px;
+    position: absolute;
+    top:3950px; 
+    right:345px;
     width: 50px;
     height: 50px;
     background-color: transparent;
     border-color: transparent;
+}
+
+.slot1s
+{
+    background-color:#191a1b;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.planoB
+{
+    position: absolute;
+    font-family: ombing !important;
+    margin-top: 150px;
+    margin-left: 205px;
+    font-size: 90px;
+    color: white;
+}
+.Basic
+{
+    position: absolute;
+    font-family: ombing !important;
+    margin-top: 260px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+}
+.Gen1
+{
+    margin-top: 330px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespGen1
+{
+    margin-top: 330px;
+    margin-left: 205px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Art1
+{
+    margin-top: 360px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespArt1
+{
+    margin-top: 360px;
+    margin-left: 205px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Enemy1
+{
+    margin-top: 390px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespEnemy1
+{
+    margin-top: 390px;
+    margin-left: 205px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Duration1
+{
+    margin-top: 420px;
+    margin-left: 140px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespDuration1
+{
+    margin-top: 420px;
+    margin-left: 205px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.verMaisB
+{
+    position: absolute;
+    left: 155px;
+    margin-top: 500px;
+}
+.verMaisB2
+{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
+
+.slot2s
+{
+    background-color:#191a1b;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+.planoI
+{
+    position: absolute;
+    font-family: ombing !important;
+    margin-top: 150px;
+    margin-left: 640px;
+    font-size: 90px;
+    color: white;
+}
+.Intermediary
+{
+    position: absolute;
+    font-family: ombing !important;
+    margin-top: 260px;
+    margin-left: 605px;
+    font-size: 20px;
+    color: white;
+}
+.Gen2
+{
+    margin-top: 330px;
+    margin-left: 580px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespGen2
+{
+    margin-top: 330px;
+    margin-left: 645px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Art2
+{
+    margin-top: 360px;
+    margin-left: 580px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespArt2
+{
+    margin-top: 360px;
+    margin-left: 645px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Enemy2
+{
+    margin-top: 390px;
+    margin-left: 580px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespEnemy2
+{
+    margin-top: 390px;
+    margin-left: 645px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Duration2
+{
+    margin-top: 420px;
+    margin-left: 580px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespDuration2
+{
+    margin-top: 420px;
+    margin-left: 645px;;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.verMaisI
+{
+    position: absolute;
+    left: 590px;
+    margin-top: 500px
+}
+.verMaisI2
+{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
+.slot3s
+{
+    background-color:#191a1b;
+    border-color: rgba(137, 43, 226, 0.712);
+    border-style: outset;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 880px;
+}
+.planoC
+{
+    position: absolute;
+    font-family: ombing !important;
+    margin-top: 150px;
+    margin-left: 1070px;
+    font-size: 90px;
+    color: white;
+}
+.Complete
+{
+    position: absolute;
+    font-family: ombing !important;
+    margin-top: 260px;
+    margin-left: 1060px;
+    font-size: 20px;
+    color: white;
+}
+.Gen3
+{
+    margin-top: 330px;
+    margin-left: 1010px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespGen3
+{
+    margin-top: 330px;
+    margin-left: 1075px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Art3
+{
+    margin-top: 360px;
+    margin-left: 1010px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespArt3
+{
+    margin-top: 360px;
+    margin-left: 1075px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Enemy3
+{
+    margin-top: 390px;
+    margin-left: 1010px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespEnemy3
+{
+    margin-top: 390px;
+    margin-left: 1075px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.Duration3
+{
+    margin-top: 420px;
+    margin-left: 1010px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    font-family: ombing !important;
+}
+.RespDuration3
+{
+    margin-top: 420px;
+    margin-left: 1075px;;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.730);
+    position: absolute;
+    font-family: ombing !important;
+}
+.verMaisC
+{
+    position: absolute;
+    left: 1020px;
+    margin-top: 500px
+}
+.verMaisC2
+{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-family: ombing !important;
+}
+
+/* END */
+
+.RE
+{
+    position: absolute;
+    font-size: 23px;
+    font-family: ombing !important;
+    color: rgba(255, 255, 255, 0.623);
+    margin-top: 1050px;
+    margin-left: 340px;
+}
+.PR
+{
+    position: absolute;
+    font-size: 23px;
+    font-family: ombing !important;
+    color: rgba(255, 255, 255, 0.623);
+    margin-top: 1050px;
+    margin-left: 635px;
+}
+.CO
+{
+    position: absolute;
+    font-size: 23px;
+    font-family: ombing !important;
+    color: rgba(255, 255, 255, 0.623);
+    margin-top: 1050px;
+    margin-left: 895px;
 }
